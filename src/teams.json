@@ -1,0 +1,10 @@
+{
+    "ACT": {
+        "annualLeaveSubCalendarId": "c832c2da-e56a-4493-a1f3-82f3ef3ce2f8",
+        "developers": ["caf16", "hhu14", "hmg02", "oay07", "skn31", "srn42"]
+    },
+    "XEDE": {
+        "annualLeaveSubCalendarId": "88c4d0f8-ce0a-461e-aff8-c27d44d63633",
+        "developers": ["aud01", "mkh37", "rfe18", "ses04", "srn42", "tad25"]
+    }
+}
