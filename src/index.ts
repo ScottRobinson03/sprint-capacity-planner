@@ -31,7 +31,6 @@ const fetchAnnualLeaveEvents = async (from: Date, to: Date) => {
     const url =
         `https://${config.CONFLUENCE_ROOT_DOMAIN}/rest/calendar-services/1.0/calendar/events.json?subCalendarId=${config.teamAnnualLeaveSubCalendarId}` +
         `&userTimeZoneId=Europe%2FLondon&start=${fromUriComponent}&end=${toUriComponent}`;
-    console.log({ url });
     const resp = await axios.get(
         url,
         // NB: Some companies may require you to be on the corporate network for PAT authorization to work
